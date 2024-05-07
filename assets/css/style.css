@@ -8,6 +8,40 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.company-details {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.company-logo-long {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.company-logo-square {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+
+.company-info {
+  flex-grow: 1; /* Allow company info to take up remaining space */
+}
+
+
+.certification-img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
